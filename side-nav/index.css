@@ -82,3 +82,6 @@ li:hover {
   opacity: 1;
   max-height: 250px;
 }
+.styling {
+  color: red;
+}
