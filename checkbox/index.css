@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+.custom__label {
+  border: 1px solid black;
+  padding: 25px 25px;
+  cursor: pointer;
+}
+
+.custom__label:hover {
+  border: 1px solid blue;
+}
+
+.custom__label:active {
+  border: 2px solid red;
+}
+
+input[type='checkbox'] {
+  margin-top: 50px;
+  opacity: 0;
+}
+
+.show {
+  border: 5px solid black;
+}
